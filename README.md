@@ -5,9 +5,6 @@ Paling direkomendasikan: **pakai schema FPL** (data asli).
 
 - `sql/schema_fpl.sql` (official Fantasy Premier League API)
 
-Opsional (kalau mau mode dummy):
-- `sql/schema_seed.sql` + `backend/scripts/generate_dummy_data.py`
-
 ## 2) Backend (FastAPI)
 ```bash
 cd backend
