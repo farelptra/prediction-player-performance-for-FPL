@@ -1,7 +1,6 @@
 # EPL Predictor (FPL API + Random Forest)
 
 ## 1) MySQL/MariaDB
-Paling direkomendasikan: **pakai schema FPL** (data asli).
 
 - `sql/schema_fpl.sql` (official Fantasy Premier League API)
 
