@@ -1,0 +1,50 @@
+# ===== Secrets =====
+.env
+**/.env
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+**/.venv/
+*.log
+
+# ===== Node / Frontend =====
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+
+# ===== OS / IDE =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# ===== Data / Model (opsional, kalau besar) =====
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+# Python venv (penting!)
+.venv/
+**/.venv/
+backend/.venv_old/
+**/.venv_old/
+
+# Node
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+
+# Secrets
+.env
+**/.env

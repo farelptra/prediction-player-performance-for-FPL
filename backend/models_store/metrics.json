@@ -1,0 +1,151 @@
+{
+  "model_version": "rf_v1",
+  "n_rows": 11850,
+  "max_gw": 16,
+  "classification": {
+    "f1_mean": 0.7953049062688441,
+    "roc_auc_mean": 0.9404833935801885
+  },
+  "regression": {
+    "mae_mean": 1.1315071717488332,
+    "rmse_mean": 2.0538587598666562
+  },
+  "per_gw": [
+    {
+      "test_gw": 4,
+      "f1": 0.7351598173515982,
+      "roc_auc": 0.9112019230769232,
+      "mae": 1.2187682048246014,
+      "rmse": 2.042183935019215
+    },
+    {
+      "test_gw": 5,
+      "f1": 0.7623529411764706,
+      "roc_auc": 0.9281887977665328,
+      "mae": 1.1218622853967493,
+      "rmse": 1.9012594260375857
+    },
+    {
+      "test_gw": 6,
+      "f1": 0.7897196261682243,
+      "roc_auc": 0.9401776384535006,
+      "mae": 1.1401703172760893,
+      "rmse": 2.015954919450941
+    },
+    {
+      "test_gw": 7,
+      "f1": 0.7761904761904762,
+      "roc_auc": 0.9325178167912394,
+      "mae": 1.113404316801409,
+      "rmse": 1.9436121859543625
+    },
+    {
+      "test_gw": 8,
+      "f1": 0.7972350230414746,
+      "roc_auc": 0.9344372294372295,
+      "mae": 1.1291644454719403,
+      "rmse": 2.0962423666586076
+    },
+    {
+      "test_gw": 9,
+      "f1": 0.8113207547169812,
+      "roc_auc": 0.9459384721742137,
+      "mae": 1.1414464322669342,
+      "rmse": 2.136981798272878
+    },
+    {
+      "test_gw": 10,
+      "f1": 0.8524590163934426,
+      "roc_auc": 0.9673926168707954,
+      "mae": 1.083855069260919,
+      "rmse": 1.9206892217658478
+    },
+    {
+      "test_gw": 11,
+      "f1": 0.8511627906976744,
+      "roc_auc": 0.9599196855775802,
+      "mae": 1.120810394091985,
+      "rmse": 2.0348170083294455
+    },
+    {
+      "test_gw": 12,
+      "f1": 0.815668202764977,
+      "roc_auc": 0.9452039082412914,
+      "mae": 1.104260219306231,
+      "rmse": 2.1112422241753173
+    },
+    {
+      "test_gw": 13,
+      "f1": 0.7744874715261959,
+      "roc_auc": 0.9350849617672047,
+      "mae": 1.138842890718428,
+      "rmse": 2.1025792987192373
+    },
+    {
+      "test_gw": 14,
+      "f1": 0.7517401392111369,
+      "roc_auc": 0.9233820547482258,
+      "mae": 1.1536345082303492,
+      "rmse": 2.2141893109881896
+    },
+    {
+      "test_gw": 15,
+      "f1": 0.7765237020316027,
+      "roc_auc": 0.944429920728622,
+      "mae": 1.1090097447679226,
+      "rmse": 2.0350721070218922
+    },
+    {
+      "test_gw": 16,
+      "f1": 0.8449438202247191,
+      "roc_auc": 0.958409090909091,
+      "mae": 1.1343644043212755,
+      "rmse": 2.145340075873008
+    }
+  ],
+  "feature_cols": [
+    "minutes_avg_3",
+    "minutes_avg_5",
+    "minutes_trend",
+    "expected_points_actual_avg_3",
+    "expected_points_actual_avg_5",
+    "expected_points_actual_trend",
+    "goals_avg_3",
+    "goals_avg_5",
+    "goals_trend",
+    "assists_avg_3",
+    "assists_avg_5",
+    "assists_trend",
+    "xg_avg_3",
+    "xg_avg_5",
+    "xg_trend",
+    "xa_avg_3",
+    "xa_avg_5",
+    "xa_trend",
+    "ict_index_avg_3",
+    "ict_index_avg_5",
+    "ict_index_trend",
+    "influence_avg_3",
+    "influence_avg_5",
+    "influence_trend",
+    "creativity_avg_3",
+    "creativity_avg_5",
+    "creativity_trend",
+    "threat_avg_3",
+    "threat_avg_5",
+    "threat_trend",
+    "bonus_avg_3",
+    "bonus_avg_5",
+    "bonus_trend",
+    "bps_avg_3",
+    "bps_avg_5",
+    "bps_trend",
+    "is_home",
+    "difficulty",
+    "opp_strength_def",
+    "team_att",
+    "team_def",
+    "injury_flag",
+    "price"
+  ]
+}
